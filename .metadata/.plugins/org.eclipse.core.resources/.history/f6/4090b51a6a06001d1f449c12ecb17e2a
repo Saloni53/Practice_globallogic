@@ -1,0 +1,19 @@
+package com.globallogic.Wrapper;
+
+public class MyByte {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte b=5;
+		Byte b1=new Byte(b);
+		System.out.println(Byte.MAX_VALUE);
+		System.out.println(Byte.MIN_VALUE);
+		System.out.println("double value is"+b1.doubleValue());
+		
+		System.out.println("float value is "+b1.floatValue());
+		
+		
+
+	}
+
+}
