@@ -1,5 +1,6 @@
 package com.globallogic.samp;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Samplee {
@@ -13,8 +14,8 @@ public class Samplee {
 		String[] b = new String[a.length];
 		for (int i = 0; i < str.length(); i++) {
 			String rev = new String();
-			String word=new String();
-			 word = a[i];
+			ArrayList<String> word=new ArrayList<String>();
+			 word.add(arr[i]);
 			for (int j = word.length() - 1; j >= 0; j--) {
 				rev = rev + word.charAt(j);
 
